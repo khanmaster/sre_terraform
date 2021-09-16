@@ -40,7 +40,7 @@ resource "aws_instance" "app_instance" {
 }
 ```
 
-
+#### create variable.tf and declare the variables
 #### step1 create a vpc with your CDIR block
 #### run terraform plan then terraform apply
 #### get the vpc id from aws or terraform logs
