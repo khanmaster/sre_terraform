@@ -14,7 +14,8 @@ resource "aws_instance" "app_instance" {
   tags = { 
      Name = "sre_shahrukh_terraform_app"
   }
-
+  key_name = "sre_key" # this key name needs to the as .pem file
+  #aws_key_path = var.aws_key_path
 }
 
 
